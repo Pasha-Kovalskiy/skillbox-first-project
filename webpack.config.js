@@ -12,7 +12,6 @@ function setupDevtool() {
     if(IS_PROD) return false;
 }
 
-
 module.exports = {
     mode: NODE_ENV ? NODE_ENV : 'development',
     resolve: {
